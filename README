@@ -14,17 +14,17 @@ INSTALLATION INSTRUCTIONS
 	It is assumed you have a standard Unix/Linux installation with Perl
 	(built with threading).
 
-	1. Install SQLite (free from www.sqlite.org and various package
+	1. Install SQLite (free from http://www.sqlite.org and various package
 	management solutions). sqlite3 must be in the executable PATH.
 
-	2. Install WU-BLAST (free for academic use from blast.wustl.edu).
+	2. Install AB-BLAST (free for academic use from http://blast.advbiocomp.com/).
 	Both xdformat and xdget must be in the exectuable PATH.
 
-	3. Download GenBank files (http://www.ncbi.nlm.nih.gov/Ftp) and put
+	3. Download GenBank files (ftp://ftp.ncbi.nih.gov/genbank/) and put
 	them in a single directory. gblite.pl looks for gb*seq.gz files in
 	the directory, so keep them compressed.
 
-	4. Download the taxonomy tar-ball (http://www.ncbi.nlm.nih.gov/Ftp)
+	4. Download the taxonomy tar-ball (ftp://ftp.ncbi.nih.gov/pub/taxonomy/)
 	The names.dmp and nodes.dmp files are required.
 
 	5. Set the GBLITE environment variable to point to a directory where
